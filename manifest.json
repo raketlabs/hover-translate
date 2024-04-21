@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Hover Translatexxx",
+    "description": "Hover to see translation",
+    "author": "Raket Labs",
+    "homepage_url": "https://www.raketlabs.com/",
+    "icons": {
+        "48": "icon.png",
+        "96": "icon@2x.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
